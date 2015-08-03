@@ -1,0 +1,271 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Sun, 02 Aug 2015 20:40:55 GMT
+Content-Type: text/html; charset=WINDOWS-1251
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.3.3-7+squeeze26
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: user=5f6e3423931d4142ff46e4f1f0cb41a9; expires=Mon, 01-Aug-2016 20:40:55 GMT; path=/; domain=.bazarpnz.ru
+Set-Cookie: PHPSESSID=e7ea48f9dc22db8755151d3ad9d81ae5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+
+1dcd
+<!-- Страница 0.0.d41d8cd98f00b204e9800998ecf8427e из кэша  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+<META HTTP-EQUIV="content-type" content="text/html; charset=windows-1251" >
+<META HTTP-EQUIV="Content-Language" content="RU">
+
+<title>Объявления в Пензе</title>
+
+<!-- Facebook Open Graph Meta Tags -->
+<meta property="og:title" content="Городской сайт объявлений BAZARPNZ.RU" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://bazarpnz.ru/img/bazar_preview.png"/>
+<meta property="og:description" content="Коммерческие и частные объявления г. Пензы. Легко добавить. Легко найти." />
+<meta property="og:url" content="http://bazarpnz.ru/" />
+<meta property="og:site_name" content="BAZARPNZ.RU" />
+<meta property="og:locale" content="ru_RU" /
+
+<META NAME="description" CONTENT="Коммерческие и частные объявления с фотографиями. Легко добавить. Легко найти.">
+<META NAME="keywords" CONTENT="пенза, объявления, покупка, продажа, обмен, аренда, работа, услуги, товары, предложения">
+<meta name='yandex-verification' content='7e7b4a05091c9237' />
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Объявления" href="/rss?">
+<link rel="shortcut icon" href="http://bazarpnz.ru/favicon.ico" >
+<link rel="apple-touch-icon" href="http://bazarpnz.ru/favicon.png"/>
+<link rel="stylesheet" type="text/css" href="/styles.css" >
+
+<script type="text/javascript" language="JavaScript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" language="JavaScript" src="/js/trail.js"></script>
+<script type="text/javascript" language="JavaScript" src="/ajax.js"></script>
+<script type="text/javascript" language="JavaScript" src="/js.js?1"></script>
+<script type="text/javascript" language="JavaScript" src="/adriver.js"></script>
+</head>
+
+<body>
+
+
+<div id=container>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="10" align="center">
+  <tr>
+<td bgcolor="#FFFFFF" valign=top>
+
+<noindex>
+<!--LiveInternet counter-->
+<script type="text/javascript">
+<!--
+document.write("<img src='http://counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";i"+escape("Жж"+document.title.substring(0,80))+";"+Math.random()+
+"' width=1 height=1 alt=''>")
+//-->
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://bazarpnz.ru/",
+  "potentialAction": {
+    "@type": "SearchAction",
+     "name": "BAZARPNZ.RU",
+    "target": "http://bazarpnz.ru/search.php?searchwords=",
+    "query-input": "required name=search_term"
+  }
+}
+</script>
+
+</noindex>
+
+<table width=100% cellpadding=0 cellspasing=0>
+
+<tr>
+
+<form id="search" action='/search.php' method='get' onsubmit="return check_search_form(this);">
+	<td width=160 align=left style="vertical-align:top;">
+	<a href='http://bazarpnz.ru/'><img src='/img/logo.gif' width=150 height=33 border=0 alt="Объявления Пензы"></a>
+	</td>
+
+	<td>
+	 <input type="text" class='y_menuform' id='searchfield' name='searchwords' value=''>
+	</td>
+	<td width=200>
+	 			<select name="search_rub" class='y_menuform_sel'>
+				<option value='0' selected>По всему сайту</option>
+<option value='N'>По номеру объявления</option>
+<option value='105'>&nbsp;&nbsp;&nbsp;Авто</option>
+<option value='138'>&nbsp;&nbsp;&nbsp;Аудио, Видео</option>
+<option value='151'>&nbsp;&nbsp;&nbsp;Бытовая техника, Кухонные принадлежности </option>
+<option value='301'>&nbsp;&nbsp;&nbsp;Все для детей</option>
+<option value='579'>&nbsp;&nbsp;&nbsp;Деньги</option>
+<option value='551'>&nbsp;&nbsp;&nbsp;Досуг</option>
+<option value='173'>&nbsp;&nbsp;&nbsp;Здоровье, Красота</option>
+<option value='196'>&nbsp;&nbsp;&nbsp;Компьютеры, Оргтехника</option>
+<option value='312'>&nbsp;&nbsp;&nbsp;Лес</option>
+<option value='214'>&nbsp;&nbsp;&nbsp;Мебель, Интерьер</option>
+<option value='313'>&nbsp;&nbsp;&nbsp;Металл</option>
+<option value='738'>&nbsp;&nbsp;&nbsp;Мобильные устройства и аксессуары</option>
+<option value='578'>&nbsp;&nbsp;&nbsp;Находки, потери</option>
+<option value='247'>&nbsp;&nbsp;&nbsp;Недвижимость</option>
+<option value='277'>&nbsp;&nbsp;&nbsp;Оборудование, Станки, Инструменты</option>
+<option value='456'>&nbsp;&nbsp;&nbsp;Образование</option>
+<option value='299'>&nbsp;&nbsp;&nbsp;Одежда, Обувь, Аксессуары</option>
+<option value='597'>&nbsp;&nbsp;&nbsp;Организация праздников, Бары, Рестораны</option>
+<option value='616'>&nbsp;&nbsp;&nbsp;Отдам даром, приму в дар</option>
+<option value='480'>&nbsp;&nbsp;&nbsp;Охота, Рыбалка, Туризм, Оружие</option>
+<option value='562'>&nbsp;&nbsp;&nbsp;Подарки</option>
+<option value='583'>&nbsp;&nbsp;&nbsp;Поиск людей</option>
+<option value='315'>&nbsp;&nbsp;&nbsp;Продукты</option>
+<option value='311'>&nbsp;&nbsp;&nbsp;Промышленность</option>
+<option value='392'>&nbsp;&nbsp;&nbsp;Работа</option>
+<option value='581'>&nbsp;&nbsp;&nbsp;Разное</option>
+<option value='465'>&nbsp;&nbsp;&nbsp;Связь, Телекоммуникации</option>
+<option value='316'>&nbsp;&nbsp;&nbsp;Сельское хозяйство</option>
+<option value='605'>&nbsp;&nbsp;&nbsp;Скидки, акции, бонусы </option>
+<option value='840'>&nbsp;&nbsp;&nbsp;Спорт и активный отдых</option>
+<option value='490'>&nbsp;&nbsp;&nbsp;Строительство, Ремонт, Обслуживание</option>
+<option value='499'>&nbsp;&nbsp;&nbsp;Транспортные услуги, спецтехники</option>
+<option value='509'>&nbsp;&nbsp;&nbsp;Туры, Туризм, Круизы, Экскурсии</option>
+<option value='124'>&nbsp;&nbsp;&nbsp;Услуги для бизнеса и населения</option>
+<option value='237'>&nbsp;&nbsp;&nbsp;Фото, Музыка, Искусство, Книги</option>
+<option value='162'>&nbsp;&nbsp;&nbsp;Цветы, Животные, Растения</option>
+
+				</select>
+
+	</td>
+	<td width=105 align=right style="vertical-align:top;">
+	 <input name="sbmt" type="image" alt="Найти" src="/img/search.gif" style="border: 0;">
+	</td>
+
+</form>
+	</tr>
+	</table>
+
+
+	<div align=center style='background: url("/img/bg2.gif") #fcfcfc; border: 1px #f0f0f0 solid; margin: 0 0 10px 0; padding: 5px;'  >
+
+ 		 <div style='background: url("/img/vda/1x1.gif"); width: 600px; height: 80px;'>
+
+		<!-- AdRiver code START Type: extension Site: BAZARPNZ SZ: xx PZ: 1 BN: 0-->
+		<script language="javascript" type="text/javascript">
+		<!--
+			var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=126543&sz=main&target=blank&bt=49&pz=1&tail256=" + ar_Tail;
+			ar_putContainer_nm(ar_cn);ar_putDiv(ar_cn,0);ar_getDoc(0,ar_cn++,ar_link);
+		//-->
+		</script>
+		<!-- AdRiver code END -->
+
+
+		</div>
+ 	</div>
+
+<table width=100% cellspacing=0 style='margin: 0 0 10px 0;'>
+<tr>
+<td valign=middle align=left width=27 ><a href='/rss?'><img src='/img/rss.gif?394' alt="RSS" title="Объявления. RSS" border=0 align=absmiddle></a></td>
+<td valign=middle align=left><h1>Объявления в Пензе</h1><noindex><span class='views' style='padding-top: 5px;'>Сейчас на сайте 111749 объявлений</span></noindex></td>
+<td valign=middle align=right width=220>
+<noindex>
+	<a href='/add.php' style='text-decoration:none;'><img src='/img/add_vda.gif' alt="Добавить объявление" border=0></a>
+	<a href='/add_site.php?rub=main' style='text-decoration:none;'><img src='/img/add_site.gif' alt="Добавить сайт" border=0></a>
+	<a rel="nofollow" href='/notepad.php'><img id='ntb' src='/img/notepad.gif' style="display: none;" alt="Блокнот" border=0></a>
+</noindex>
+</td>
+</tr>
+</table>
+
+
+<div id='nav'><
+2000
+a href='/'>Главная</a>&nbsp;&nbsp;&#155;&nbsp;&nbsp;
+<div style='float:right; width: 150px;'>
+<form action="">
+      <select style='width: 150px;' name="menu" onchange="self.location.href=this.form.menu.options[this.form.menu.selectedIndex].value;">
+         <option value="">Быстрый переход</option>
+	 <option value='' style="background-color: rgb(200, 255, 185);" disabled="1" >&nbsp;</option>
+	 <option value='/transport/legkovye_avtomobili/'>Продажа автомобилей</option>
+	 <option value='/nedvizhimost/kvartiry_komnaty/'>Продажа квартир</option>
+	 <option value='/nedvizhimost/arenda_zhilja/'>Аренда жилья</option>
+	 <option value='/rabota/predlagaem_rabotu/'>Предложения работы</option>
+	 <option value='' disabled="1" >&nbsp;</option>
+	 <option style="background-color: rgb(200, 255, 185); font-weight: bold; color: #000;" disabled="1" value="0">Все рубрики</option>
+	 <option value='/transport/'>Авто</option>
+<option value='/audio_video/'>Аудио, Видео</option>
+<option value='/bytovaja_texnika/'>Бытовая техника, Кухонные принадлежности </option>
+<option value='/dlja_detej/'>Все для детей</option>
+<option value='/dengi/'>Деньги</option>
+<option value='/dosug/'>Досуг</option>
+<option value='/zdorovje_krasota/'>Здоровье, Красота</option>
+<option value='/kompjutery_orgtexnika/'>Компьютеры, Оргтехника</option>
+<option value='/lesnaja_promyshlennost/'>Лес</option>
+<option value='/mebel_interjer/'>Мебель, Интерьер</option>
+<option value='/metallurgija/'>Металл</option>
+<option value='/mobilnye_ustrojstva_i_aksessuary/'>Мобильные устройства и аксессуары</option>
+<option value='/naxodki_poteri/'>Находки, потери</option>
+<option value='/nedvizhimost/'>Недвижимость</option>
+<option value='/oborudovanie_stanki/'>Оборудование, Станки, Инструменты</option>
+<option value='/obrazovanie/'>Образование</option>
+<option value='/odezhda_obuv_aksessuary/'>Одежда, Обувь, Аксессуары</option>
+<option value='/razvlekatelnye_zavedenija_organizatsija_prazdnikov/'>Организация праздников, Бары, Рестораны</option>
+<option value='/otdam_darom_primu_v_dar/'>Отдам даром, приму в дар</option>
+<option value='/sport/'>Охота, Рыбалка, Туризм, Оружие</option>
+<option value='/podarki/'>Подарки</option>
+<option value='/poisk_ljudej/'>Поиск людей</option>
+<option value='/produkty_selskoe_xozjajstvo/'>Продукты</option>
+<option value='/promyshlennost/'>Промышленность</option>
+<option value='/rabota/'>Работа</option>
+<option value='/raznoe/'>Разное</option>
+<option value='/svjaz_telekommunikatsii/'>Связь, Телекоммуникации</option>
+<option value='/selskoe_xozjajstvo/'>Сельское хозяйство</option>
+<option value='/aktsii_bonusy_skidki/'>Скидки, акции, бонусы </option>
+<option value='/tovary_dlja_sporta_i_otdyxa/'>Спорт и активный отдых</option>
+<option value='/stroitelstvo_remont_obsluzhivanie/'>Строительство, Ремонт, Обслуживание</option>
+<option value='/transport_perevozki/'>Транспортные услуги, спецтехники</option>
+<option value='/turizm_otdyx_prazdniki/'>Туры, Туризм, Круизы, Экскурсии</option>
+<option value='/biznes/'>Услуги для бизнеса и населения</option>
+<option value='/foto_muzyka_iskusstvo/'>Фото, Музыка, Искусство, Книги</option>
+<option value='/zhivotnye_rastenija/'>Цветы, Животные, Растения</option>
+
+      </select>
+
+</form>
+</div></div>
+
+<div id='rub'>
+		<table id='table_rub' cellpadding=10 cellspacing=1>
+		<tr>
+		<tr>
+			<td background='/img/rub_l.jpg' width=50%>
+
+<a href='transport/'  >Авто</a><noindex>&nbsp;<span>14721</span></noindex>
+<br /><a href='nedvizhimost/'  >Недвижимость</a><noindex>&nbsp;<span>58963</span></noindex>
+<br /><a href='rabota/'  >Работа</a><noindex>&nbsp;<span>2870</span></noindex>
+<br /><a href='dlja_detej/'  >Все для детей</a><noindex>&nbsp;<span>7056</span></noindex>
+<br /><a href='mobilnye_ustrojstva_i_aksessuary/'  >Мобильные устройства и аксессуары</a><noindex>&nbsp;<span>1793</span></noindex>
+<br /><br /><a href='audio_video/'  >Аудио, Видео</a><noindex>&nbsp;<span>1297</span></noindex>
+<br /><a href='bytovaja_texnika/'  >Бытовая техника, Кухонные принадлежности </a><noindex>&nbsp;<span>1070</span></noindex>
+<br /><a href='dengi/'  >Деньги</a><noindex>&nbsp;<span>72</span></noindex>
+<br /><a href='dosug/'  >Досуг</a><noindex>&nbsp;<span>1678</span></noindex>
+<br /><a href='zdorovje_krasota/'  >Здоровье, Красота</a><noindex>&nbsp;<span>1424</span></noindex>
+<br /><a href='kompjutery_orgtexnika/'  >Компьютеры, Оргтехника</a><noindex>&nbsp;<span>1758</span></noindex>
+<br /><a href='lesnaja_promyshlennost/'  >Лес</a><noindex>&nbsp;<span>433</span></noindex>
+<br /><a href='mebel_interjer/'  >Мебель, Интерьер</a><noindex>&nbsp;<span>6272</span></noindex>
+<br /><a href='metallurgija/'  >Металл</a><noindex>&nbsp;<span>433</span></noindex>
+<br /><a href='naxodki_poteri/'  >Находки, потери</a><noindex>&nbsp;<span>61</span></noindex>
+<br /><a href='oborudovanie_stan

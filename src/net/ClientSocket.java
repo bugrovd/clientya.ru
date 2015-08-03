@@ -15,26 +15,8 @@ public class ClientSocket {
         try {
             InetAddress ipAddress = InetAddress.getByName(host);
             socket = new Socket(ipAddress, 80);
+            //socket.setKeepAlive(true);
             log("Создали сокет. Host:" + host);
-
-           /* InputStream sin = socket.getInputStream();
-            OutputStream sout = socket.getOutputStream();
-            DataOutputStream out = new DataOutputStream(sout);
-
-            out.writeUTF("GET");
-            out.flush();
-            log("Отправили Hello");
-            log("Ждём ответа от сервера");
-            byte[] buf = new byte[64*1024];
-            int r=1;
-            String s="";
-            while (r>0) {
-                r=sin.read(buf);
-                if (r>0) {
-                    s = new String(buf,"UTF8");
-                }
-            }
-            log(s);*/
             return true;
         }
 
@@ -55,7 +37,7 @@ public class ClientSocket {
             DataOutputStream sout = new DataOutputStream(out);
             if (str == "") return false;
             //byte[] buf = str.getBytes();//буфер отправки
-            sout.writeUTF(str);
+            sout.writeBytes(str);
             sout.flush();
 
             return true;
@@ -66,20 +48,24 @@ public class ClientSocket {
         return false;
     }
 
-    public String recvTo () throws IOException {
+    public byte[] recvTo () throws IOException {
+
         try {
             InputStream in = socket.getInputStream();
-            byte[] buf = new byte[64*1024];
+
+            byte[] buf = new byte[256*1024];
             int coutReadByte=1;
             while (coutReadByte>0) {
-                coutReadByte=in.read(buf);
-                if (coutReadByte>0) return new String(buf, "UTF8");
+                coutReadByte=in.read(buf,0,coutReadByte);
+                    if (coutReadByte>0) {
+                        return buf;
+                        ///return new String(buf, "Windows-1251");
+                }
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return "";
+        return null;
     }
 }
 
