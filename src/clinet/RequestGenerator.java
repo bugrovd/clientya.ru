@@ -1,8 +1,5 @@
 package clinet;
 
-/**
- * Created by home on 02.08.2015.
- */
 public class RequestGenerator {
     public String host = "";
     public String accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";
@@ -20,6 +17,7 @@ public class RequestGenerator {
             log("Get запрос пустой!!!");
             return "";
         }
+        if (param == null) param="";
         return "GET http://"+host+"/"+param+" HTTP/1.1\n"+
                 "Host: "+host+"\n"+
                 //"Connection: "+connection+"\n"+
@@ -27,8 +25,8 @@ public class RequestGenerator {
                 "Accept: "+accept+"\n"+
                 "User-Agent: "+userAgent+"\n"+
                 //"Accept-Encoding: "+acceptEncoding+"\n"+
-                "Accept-Language: "+acceptLanguage+"\n\n";
-                //"Cookie: "+cookie;
+                "Accept-Language: "+acceptLanguage+"\n"+
+                "Cookie: "+cookie+"\n\n";
     }
 
     public void log (String s) {
