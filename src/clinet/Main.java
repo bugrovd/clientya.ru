@@ -15,9 +15,10 @@ public class Main {
         if (s.createSocket(host))
             if (s.sendTo(r.getRequest(host, null))) {
                 PageParser response = new PageParser(s.recvTo());
-                s.log(response.pageResponse());
-                r.cookie = response.cookie;
-                response.pageResponse();
+                System.out.print(response.pageResponse());
+                //response.countPage();
+                //r.cookie = response.cookie;
+                //response.pageResponse();
             }
 /*        String s = "HTTP/1.1 200 OK HTTP\r\n" +
                 "Cookies:csfsdxsxsds dse2 111s=scs;\r\n";

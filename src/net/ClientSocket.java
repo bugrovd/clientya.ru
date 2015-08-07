@@ -3,6 +3,7 @@ package net;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.util.Arrays;
 
 public class ClientSocket {
     private Socket socket;
@@ -40,23 +41,25 @@ public class ClientSocket {
         return false;
     }
 
-    public byte[] recvTo () throws IOException {
+    public String recvTo () throws IOException {
 
         try {
-            InputStream in = socket.getInputStream();
-            BufferedInputStream bin = new BufferedInputStream(in);
 
-            byte[] buf = new byte[256*1024];
-            //int coutReadByte=1;
-            //FileOutputStream f = new FileOutputStream("1.txt");
-            //while (coutReadByte>0) {
-                //coutReadByte=in.read(buf,0,buf.length);
-                bin.read(buf,0,buf.length);
-                //if (coutReadByte>0) {
-                    //f.write(buf,0,coutReadByte);
-                //}
-           // }
-            return buf;
+            InputStream in = socket.getInputStream();
+            BufferedReader bin = new BufferedReader(new InputStreamReader(in));
+            //BufferedInputStream bin = new BufferedInputStream(in);
+            StringBuilder sb =  new StringBuilder();
+            //FileOutputStream fs = new FileOutputStream("page.txt");
+            //byte[] buf = new byte[150*1024];
+            //int countByte = 1;
+            String tmp = null;
+            while ((tmp=bin.readLine())!=null) {
+                    sb.append(tmp+"\r\n");
+                    if (tmp.equals("</html>")) {
+                        break;
+                    }
+            }
+            return sb.toString();
         } catch (IOException e) {
             e.printStackTrace();
         }
