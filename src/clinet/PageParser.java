@@ -2,7 +2,9 @@ package clinet;
 
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -54,12 +56,54 @@ public class PageParser {
             if (codeResponse.equals("200 OK")) return true;
         }
         return false;
-    }
+    } //парсинг Resopnse
 
-/*    public int countPage () throws UnsupportedEncodingException {
-        for (int i=0;i<pageCode.length;i++) {
-            System.out.print((char)bufferData[i]);
-        }
+    public int getCountPage () throws UnsupportedEncodingException {
+            Pattern p = Pattern.compile("topage.+.&nbsp;&nbsp;");
+            Matcher m = p.matcher(pageCode);
+            if (m.find()) {
+                String str = m.group();
+                p = Pattern.compile("p=[0-9]{1,6}");
+                m = p.matcher(str);
+                int maxPage=0;
+                while (m.find()) {
+                    str = m.group();
+                    str = str.replaceAll("p=", "");
+                    if (maxPage<Integer.valueOf(str)) maxPage = Integer.valueOf(str);
+                }
+                return maxPage/50;
+            }
         return 0;
-    }*/
+    } //количество страниц
+
+    public String[] getList () { //полный набор объявлений
+        Pattern p = Pattern.compile("<table class=list>");
+        Matcher m = p.matcher(pageCode);
+        if (m.find()) {
+            String str = pageCode.substring(m.start(),pageCode.length());
+            p = Pattern.compile("</table>");
+            m = p.matcher(str);
+            if (m.find()) {
+                str = str.substring(0, m.start());
+                p = Pattern.compile("<td class=\"date\".+\r\n.+");
+                m = p.matcher(str);
+                while (m.find()) {
+                    System.out.println(m.group());
+                }
+            }
+/*
+                p = Pattern.compile("<div class=\"vdatext\".+\r\n.+\r\n.+");
+                m = p.matcher(str);
+                while (m.find()) {
+                    System.out.println(m.group());
+                }*/
+/*                p = Pattern.compile("<span class=\"price\".+");
+                m = p.matcher(str);
+                while (m.find()) {
+                    System.out.println(m.group());
+                    }
+                }*/
+        }
+        return new String[0];
+    }
 }

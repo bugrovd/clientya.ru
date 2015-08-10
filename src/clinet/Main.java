@@ -15,17 +15,8 @@ public class Main {
         if (s.createSocket(host))
             if (s.sendTo(r.getRequest(host, null))) {
                 PageParser response = new PageParser(s.recvTo());
-                System.out.print(response.pageResponse());
-                //response.countPage();
-                //r.cookie = response.cookie;
-                //response.pageResponse();
+               // System.out.println(response.getCountPage());
+                response.getList();
             }
-/*        String s = "HTTP/1.1 200 OK HTTP\r\n" +
-                "Cookies:csfsdxsxsds dse2 111s=scs;\r\n";
-        Pattern p = Pattern.compile("HTTP");
-        Matcher m = p.matcher(s);
-        m.find();
-        System.out.println(m.group());*/
-
     }
 }

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="clinetya.ru:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/clinetya_ru_jar</output-path>
+    <root id="archive" name="clinetya.ru.jar">
+      <element id="module-output" name="clinetya.ru" />
+    </root>
+  </artifact>
+</component>
